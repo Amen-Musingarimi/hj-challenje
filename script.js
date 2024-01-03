@@ -33,8 +33,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Function to display typed text to the the DOM
   function appendTypedText(text) {
+    const cleanText = text.replace('/1', '');
     const newHeading = document.createElement('h1');
-    newHeading.innerText = text;
+    newHeading.innerText = cleanText;
     typedText.appendChild(newHeading);
   }
 
