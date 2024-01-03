@@ -126,7 +126,7 @@ If you like this project then don't forget to give a star ⭐ on this repository
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank [Emil Hajric](https://www.linkedin.com/in/emilhajric/), the author of the original [design](https://www.figma.com/file/tw8CNEl69jYeqPHxfBxf38/Helpjuice-Front-End-Developer-Test-Project?node-id=0%3A1)
+I would like to thank [Emil Hajric](https://www.linkedin.com/in/emilhajric/), the author of the original [challenge](https://docs.google.com/document/d/161n6pubqHfmIiDVA6dOlhqUZlpQiTfG0_8hUTHAAEzc/edit)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -134,6 +134,6 @@ I would like to thank [Emil Hajric](https://www.linkedin.com/in/emilhajric/), th
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](LICENSE.md) licensed.
+This project is [MIT](LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
