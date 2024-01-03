@@ -96,13 +96,25 @@
         placeholder="Type / for blocks, @ to link docs or people"
         required
       />
-      <div id="popup" class="popup">
+      <div id="popup" class="popup hide">
         <h2 class="popupHeading">Add blocks</h2>
         <p class="popupdescription">
           Keep typing to filter, or escape to exit
         </p>
-        <button id="heading1Btn">Heading 1</button>
-        <button id="expandableHeading1Btn">Expandable Heading 1</button>
+        <button id="heading1Btn" class="popupButton">
+          <span class="tIcon">T</span>
+          <div>
+            <h3 class="buttonHeading">Heading 1</h3>
+            <p>Shortcut: type # + space</p>
+          </div>
+        </button>
+        <button id="expandableHeading1Btn" class="popupButton">
+          <span class="tIcon">T</span>
+          <div>
+            <h3 class="buttonHeading">Expandable Heading 1</h3>
+            <p>Shortcut: type >>#+ space</p>
+          </div>
+        </button>
       </div>
     </main>
     <script src="script.js"></script>

@@ -44,14 +44,14 @@ document.addEventListener('DOMContentLoaded', function() {
 
   function showPopup() {
     if (!isPopupVisible) {
-      popup.style.display = 'block';
+      popup.classList.remove('hide');
       isPopupVisible = true;
     }
   }
 
   function hidePopup() {
     if (isPopupVisible) {
-      popup.style.display = 'none';
+      popup.classList.add('hide');
       isPopupVisible = false;
     }
   }

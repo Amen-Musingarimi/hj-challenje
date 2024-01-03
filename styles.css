@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&display=swap');
+
 body {
   font-family: Arial, sans-serif;
   display: flex;
@@ -8,19 +10,16 @@ body {
   font-size: 0.9rem;
   color: #808080;
   width: 100%;
-  margin: 0;
-  padding: 0;
   height: 100vh;
 }
 
-p {
+* {
   padding: 0;
   margin: 0;
 }
 
 h1 {
   font-size: 1.5rem;
-  margin: 0;
   color: #000;
 }
 
@@ -43,7 +42,6 @@ header,
   list-style: none;
   font-size: 0.55rem;
   padding: 0.2rem;
-  margin: 0;
 }
 
 .headerIcon {
@@ -78,7 +76,6 @@ main {
   border: 1px solid #d3d3d3;
   border-radius: 4px;
   width: 100%;
-  padding: 0;
 }
 
 .listItem {
@@ -117,27 +114,56 @@ main {
   font-size: 0.7rem;
 }
 
+/* ----------------Styling the Popup Window---------------- */
 .popup {
-  display: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 0.5rem;
   position: absolute;
   top: 100%;
   left: 0;
   background-color: #fff;
   border: 1px solid #ccc;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   z-index: 1;
+  padding: 0.5rem;
+  border-radius: 4px;
 }
 
-.popup button {
-  display: block;
-  width: 100%;
-  padding: 10px;
-  text-align: left;
+.hide {
+  display: none;
+}
+
+.popupHeading {
+  color: #000;
+  font-size: 0.8rem;
+}
+
+.popupdescription {
+  font-size: 0.7rem;
+}
+
+.popupButton {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.4rem;
   border: none;
-  background: none;
+  background-color: #fff;
+  width: 100%;
+  padding: 0.2rem;
+  text-align: left;
   cursor: pointer;
 }
 
 .popup button:hover {
   background-color: #f4f4f4;
+}
+
+.tIcon {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 1.4rem;
 }
