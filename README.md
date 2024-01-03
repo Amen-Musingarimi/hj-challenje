@@ -59,7 +59,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://amen-musingarimi.github.io/musical-concert-capstone/)
+- [Live Demo Link](https://helpjuice-header-challenge.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
