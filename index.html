@@ -3,10 +3,126 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/8b2919a184.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Helpjuice Challenge</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <header>
+      <ul class="pathContainer">
+        <li>
+          <img
+            src="icons/chevron-right.svg"
+            alt="chevron-right-icon"
+            class="headerIcon"
+          />
+        </li>
+        <li class="flexHeaderItem">
+          <span><i class="fa-solid fa-book-open"></i></span>
+          <p>Main</p>
+        </li>
+        <li><p>/</p></li>
+        <li><p>Getting started</p></li>
+        <li><p>/</p></li>
+        <li><p>Front-end developer test proje...</p></li>
+      </ul>
+
+      <ul class="rightsContainer rightsContainerHidden">
+        <li class="flexHeaderItem">
+          <span><i class="fa-solid fa-unlock"></i></span>
+          <p>Editing</p>
+        </li>
+        <li><p>|</p></li>
+        <li class="flexHeaderItem blueText">
+          <p>Public Space</p>
+          <span><i class="fa-solid fa-chevron-down"></i></span>
+        </li>
+      </ul>
+    </header>
+
+    <main>
+      <div class="optionsContainer">
+        <ul class="rightsContainer borderContainer">
+          <li class="greenBackground listItem">
+            <p>P</p>
+          </li>
+          <li class="listItem">
+            <p>|</p>
+          </li>
+          <li class="flexHeaderItem listItem">
+            <span><i class="fa-regular fa-clock"></i></span>
+            <p>0min</p>
+          </li>
+          <li class="listItem">
+            <p>|</p>
+          </li>
+          <li class="listItem ">
+            <img class="avatar" src="icons/avatar.png" />
+          </li>
+          <li class="listItem">
+            <p>|</p>
+          </li>
+          <li class="flexHeaderItem listItem">
+            <span class="arrowDown"
+              ><i class="fa-solid fa-arrow-down"></i
+            ></span>
+            <p>0</p>
+          </li>
+        </ul>
+        <ul class="rightsContainer borderContainer">
+          <li class="listItem">
+            <span><i class="fa-regular fa-circle-check"></i></span>
+          </li>
+          <li class="listItem">
+            <span><i class="fa-solid fa-cloud"></i></span>
+          </li>
+          <li class="listItem">
+            <span><i class="fa-solid fa-ellipsis-vertical"></i></span>
+          </li>
+        </ul>
+      </div>
+      <h1 class="mainHeading">Front-end developer test project</h1>
+      <div class="borderDiv"></div>
+      <p class="instruction">
+        Your goal is to make a page exactly like this one, and has the ability
+        to create H1 text simply by typing / then 1, then typing text and
+        hitting enter.
+      </p>
+      <div id="typedText"></div>
+      <input
+        type="text"
+        class="inputText"
+        id="textInput"
+        placeholder="Type / for blocks, @ to link docs or people"
+        required
+      />
+      <div id="popup" class="popup hide">
+        <h2 class="popupHeading">Add blocks</h2>
+        <p class="popupdescription">
+          Keep typing to filter, or escape to exit
+        </p>
+        <p class="popupdescription">
+          Filtering keyword <span class="blueBackground">1</span>
+        </p>
+        <button id="heading1Btn" class="popupButton" type="button">
+          <span class="tIcon">T</span>
+          <div>
+            <h3 class="buttonHeading">Heading 1</h3>
+            <p class="buttonDescription">Shortcut: type # + space</p>
+          </div>
+        </button>
+        <button id="expandableHeading1Btn" class="popupButton" type="button">
+          <span class="tIcon">T</span>
+          <div>
+            <h3 class="buttonHeading">Expandable Heading 1</h3>
+            <p class="buttonDescription">Shortcut: type >>#+ space</p>
+          </div>
+        </button>
+      </div>
+    </main>
     <script src="script.js"></script>
   </body>
 </html>
