@@ -32,12 +32,14 @@ document.addEventListener('DOMContentLoaded', function() {
 
   heading1Btn.addEventListener('click', function() {
     hidePopup();
-    textInput.placeholder = 'Heading 1';
+    clearInput();
+    textInput.placeholder = 'Type here... (Heading 1)';
   });
 
   expandableHeading1Btn.addEventListener('click', function() {
     hidePopup();
-    textInput.placeholder = 'Expandable Heading 1';
+    clearInput();
+    textInput.placeholder = 'Type here... (Expandable Heading 1)';
   });
 
   function showPopup() {
@@ -52,6 +54,10 @@ document.addEventListener('DOMContentLoaded', function() {
       popup.style.display = 'none';
       isPopupVisible = false;
     }
+  }
+
+  function clearInput() {
+    textInput.value = '';
   }
 
   function appendTypedText(text) {
