@@ -78,6 +78,10 @@ main {
   width: 100%;
 }
 
+.borderContainer li {
+  font-size: 0.65rem;
+}
+
 .listItem {
   padding: 0.2rem;
 }
