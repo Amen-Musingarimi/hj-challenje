@@ -90,7 +90,7 @@ You can deploy this project using Github pages.
 👤 **Amen Musingarimi**
 
 - GitHub: [@Amen-Musingarimi](https://github.com/Amen-Musingarimi)
-- Twitter: [@Amen-Musingarimi](https://twitter.com/Amen-Musingarimi)
+- Twitter: [@Amen-Musingarimi](https://twitter.com/tunchi_a)
 - LinkedIn: [atmusingarimi](https://www.linkedin.com/in/atmusingarimi/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
