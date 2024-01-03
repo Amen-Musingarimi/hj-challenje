@@ -158,12 +158,23 @@ main {
   cursor: pointer;
 }
 
-.popup button:hover {
-  background-color: #f4f4f4;
+.popupButton:hover {
+  background-color: #c7c4c4;
 }
 
 .tIcon {
   font-family: 'Playfair Display', serif;
   font-weight: 700;
   font-size: 1.4rem;
+  color: #808080;
+}
+
+.buttonHeading {
+  font-size: 0.75rem;
+}
+
+.buttonDescription {
+  font-size: 0.6rem;
+  color: #808080;
+  margin-top: 0.2rem;
 }
