@@ -140,9 +140,3 @@ main {
 .popup button:hover {
   background-color: #f4f4f4;
 }
-
-.typed-text {
-  margin-top: 20px;
-  font-size: 18px;
-  font-weight: bold;
-}

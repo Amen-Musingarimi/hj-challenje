@@ -33,13 +33,13 @@ document.addEventListener('DOMContentLoaded', function() {
   heading1Btn.addEventListener('click', function() {
     hidePopup();
     clearInput();
-    textInput.placeholder = 'Type here... (Heading 1)';
+    textInput.placeholder = 'Heading 1';
   });
 
   expandableHeading1Btn.addEventListener('click', function() {
     hidePopup();
     clearInput();
-    textInput.placeholder = 'Type here... (Expandable Heading 1)';
+    textInput.placeholder = 'Expandable Heading 1';
   });
 
   function showPopup() {
