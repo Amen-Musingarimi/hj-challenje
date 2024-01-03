@@ -1,15 +1,49 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding: 0;
   height: 100vh;
   background-color: #f4f4f4;
 }
 
 .container {
   position: relative;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pathContainer,
+.rightsContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.5rem;
+  color: gray;
+  list-style: none;
+  font-size: 0.55rem;
+  padding: 0.2rem;
+  margin: 0;
+}
+
+.headerIcon {
+  height: 0.6rem;
+  width: 0.6rem;
+}
+
+.flexHeaderItem {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.blueText {
+  color: blue;
+  font-weight: 600;
 }
 
 #textInput {
