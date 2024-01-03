@@ -9,6 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   let isPopupVisible = false;
 
+  //--------- Handling the Popup Window----------------//
   textInput.addEventListener('input', function(event) {
     const inputValue = event.target.value;
 
@@ -41,6 +42,19 @@ document.addEventListener('DOMContentLoaded', function() {
     hidePopup();
     clearInput();
     textInput.placeholder = 'Expandable Heading 1';
+  });
+
+  //--------- Handling the shortcuts----------------//
+  document.addEventListener('keydown', function(event) {
+    let inputValue = textInput.value.trim();
+
+    if (inputValue === '#' && event.code === 'Space') {
+      clearInput();
+      textInput.placeholder = 'Heading 1';
+    } else if (inputValue === '>>#' && event.code === 'Space') {
+      clearInput();
+      textInput.placeholder = 'Expandable Heading 1';
+    }
   });
 
   function showPopup() {
