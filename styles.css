@@ -97,6 +97,11 @@ main {
   color: #f3f2f2;
 }
 
+.arrowDown {
+  transform: rotate(45deg);
+  transform-origin: 50% 50%;
+}
+
 .borderDiv {
   border-top: 1px solid #d3d3d3;
   width: 100%;
