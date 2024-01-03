@@ -7,6 +7,20 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <div class="container">
+      <input
+        type="text"
+        id="textInput"
+        placeholder="Type / for blocks, @ to link docs or people"
+      />
+      <div id="popup" class="popup">
+        <h2 class="popupHeading">Add blocks</h2>
+        <p class="popupdescription">Keep typing to filter, or escape to exit</p>
+        <button id="heading1Btn">Heading 1</button>
+        <button id="expandableHeading1Btn">Expandable Heading 1</button>
+      </div>
+      <div id="typedText" class="typed-text"></div>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>

@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.container {
+  position: relative;
+}
+
+#textInput {
+  padding: 10px;
+  font-size: 16px;
+  width: 300px;
+}
+
+.popup {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.popup button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  text-align: left;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.popup button:hover {
+  background-color: #f4f4f4;
+}
+
+.typed-text {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
