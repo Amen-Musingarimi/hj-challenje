@@ -40,7 +40,7 @@ header,
   align-items: center;
   gap: 0.5rem;
   list-style: none;
-  font-size: 0.65rem;
+  font-size: 0.8rem;
   padding: 0.2rem;
 }
 
@@ -93,8 +93,8 @@ main {
 }
 
 .avatar {
-  background-color: #d84e4e;
-  color: #f3f2f2;
+  height: 0.85rem;
+  width: 0.85rem;
 }
 
 .arrowDown {
@@ -108,7 +108,7 @@ main {
 }
 
 .instruction {
-  font-size: 0.7rem;
+  font-size: 0.85rem;
   line-height: 1.2rem;
 }
 
@@ -116,7 +116,7 @@ main {
   width: 100%;
   border: none;
   outline: none;
-  font-size: 0.8rem;
+  font-size: 0.85rem;
 }
 
 /* ----------------Styling the Popup Window---------------- */
@@ -144,7 +144,7 @@ main {
 
 .popupHeading {
   color: #000;
-  font-size: 0.8rem;
+  font-size: 0.85rem;
 }
 
 .popupdescription {
