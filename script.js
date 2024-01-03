@@ -27,6 +27,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
       if (inputValue !== '' && inputValue !== '/1') {
         appendTypedText(inputValue);
+        clearInput();
         textInput.placeholder = 'Type / for blocks, @ to link docs or people';
       }
     }
