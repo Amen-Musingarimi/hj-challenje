@@ -1,19 +1,29 @@
 body {
   font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
   margin: 0;
   padding: 0;
   height: 100vh;
-  background-color: #f4f4f4;
 }
 
-.container {
-  position: relative;
+p {
+  padding: 0;
+  margin: 0;
 }
 
-header {
+/* ----------------Styling the Header---------------- */
+header,
+.optionsContainer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0.5rem;
+  width: 100%;
 }
 
 .pathContainer,
@@ -44,6 +54,42 @@ header {
 .blueText {
   color: blue;
   font-weight: 600;
+}
+
+/* ----------------Styling the Main Container---------------- */
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  position: relative;
+  width: 50%;
+}
+
+.optionsContainer {
+  border: 1px solid #d3d3d3;
+  border-radius: 4px;
+  width: 100%;
+  padding: 0;
+}
+
+.listItem {
+  padding: 0.2rem;
+}
+
+.greenBackground,
+.avatar {
+  border-radius: 2px;
+}
+
+.greenBackground {
+  background-color: #7fffd4;
+  font-weight: 600;
+}
+
+.avatar {
+  background-color: #d84e4e;
+  color: #f3f2f2;
 }
 
 #textInput {
