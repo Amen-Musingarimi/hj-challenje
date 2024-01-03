@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   let isPopupVisible = false;
 
-  //--------- Handling the Popup Window----------------//
+  // Handling the Popup Window
   textInput.addEventListener('input', function(event) {
     const inputValue = event.target.value;
 
@@ -20,18 +20,19 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   });
 
+  // Handling text enterd by the user
   textInput.addEventListener('keyup', function(event) {
     if (event.key === 'Enter') {
       const inputValue = textInput.value.trim();
 
       if (inputValue !== '' && inputValue !== '/1') {
         appendTypedText(inputValue);
-        textInput.value = '';
         textInput.placeholder = 'Type / for blocks, @ to link docs or people';
       }
     }
   });
 
+  // Handling the Popup Window options
   heading1Btn.addEventListener('click', function() {
     hidePopup();
     clearInput();
@@ -57,6 +58,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   });
 
+  // Function to show the popup
   function showPopup() {
     if (!isPopupVisible) {
       popup.classList.remove('hide');
@@ -64,6 +66,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   }
 
+  // Function to hide the popup
   function hidePopup() {
     if (isPopupVisible) {
       popup.classList.add('hide');
@@ -71,10 +74,12 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   }
 
+  // Function to clear the input field
   function clearInput() {
     textInput.value = '';
   }
 
+  // Function to display typed text to the the DOM
   function appendTypedText(text) {
     const newHeading = document.createElement('h1');
     newHeading.innerText = text;
